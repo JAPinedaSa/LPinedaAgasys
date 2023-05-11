@@ -11,16 +11,14 @@ namespace EdadesPL
         public void Descomponercadena()
         {
             char[] alphabet = { 'a', 'b', 'c', 'd' };
-            int a = 0 ;   
-            int b = 1;
             int length = 0;
+            int a=0;
+            int b = 1;
             string cadena;
             char[] descomponerCadena;
             char[] nuevaCadena = new char[length] ; 
-            int contador = 0;
-            int indice = 0;
             List<char> list = new List<char>(nuevaCadena.ToList());
-            char intento = '0';
+            char intento = alphabet[a+b];
 
 
             Console.WriteLine("Por favor digite una cadena de texto");
@@ -38,19 +36,11 @@ namespace EdadesPL
                     if (alphabet.Contains(elemento))
                     {
                         
-                        
-                        for (indice = 0; indice < descomponerCadena.Length; indice++)
-                        {
-                            intento = alphabet[indice];
-
-                            
-                            
-                        }
                         list.Add(intento);
                         nuevaCadena = list.ToArray();
 
                     }
-                   
+                    a++;
                    
                 }
 
