@@ -47,8 +47,10 @@
     <Compile Include="Edades.cs" />
     <Compile Include="Elecciones.cs" />
     <Compile Include="Empleado.cs" />
+    <Compile Include="Palabra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SopadeLetras.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
